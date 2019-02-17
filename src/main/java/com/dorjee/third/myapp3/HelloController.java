@@ -12,6 +12,6 @@ public class HelloController {
 
     @GetMapping("")
     public String sayHello() {
-        return "Yo, Saying helloasfdfas from profile -> " + profileName;
+        return "Yo, Saying helloasfdfas from pasdfrofile -> " + profileName;
     }
 }
