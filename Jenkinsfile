@@ -2,7 +2,7 @@ node {
     def app
 
     stage('Clone repository') {
-        /* Let's make sasdfure we have the repository cloned to our workspace */
+        /* Let's make saasdfsdfure we have the repository cloned to our workspace */
 
         checkout scm
     }
