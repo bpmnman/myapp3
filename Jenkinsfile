@@ -12,7 +12,7 @@ node {
          * docker build on the command line */
 
         app = docker.build("bpmnman/heroapp")
-    }
+    }asdf
 
     stage('Test image') {
         /* Ideally, we would run a test framework against our image.
