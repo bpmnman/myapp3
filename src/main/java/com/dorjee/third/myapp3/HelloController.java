@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Value("${profile.name}")
+    @Value("${profile.dorjee}")
     private String profileName;
 
     @GetMapping("")
     public String sayHello() {
-        return "Yo, Saying hello from profile -> " + profileName;
+        return "Yo, Saying helloasfdfas from profile -> " + profileName;
     }
 }
